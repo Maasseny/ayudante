@@ -1,0 +1,31 @@
+body{
+    background-color: crimson;
+    font-family: sans-serif;
+    color: white;
+    font-size: 28px;
+    display: flex;
+}
+div{
+    position: relative;
+    height: 768px;
+}
+img{
+    animation: levitar 3s ease-in-out infinite;
+    position: absolute;
+    width: 250px;
+}
+@keyframes levitar{
+    0%{
+        top: 25px;
+        left: 10px;
+    }
+    50%{
+        top: -25px;
+        left: -10px;
+        width: 1000px;
+    }
+    100%{
+        top: 25px;
+        left: 10px;
+    }
+}
